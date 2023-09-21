@@ -1,10 +1,9 @@
----
-title: "🚧WIP: Building an RL agent to play Snakes and Ladders🚧"
-date: 2023-03-28T01:54:20+05:30
-draft: true
----
+
+https://github.com/glokta1/snl-rll/assets/71697384/12d47bd7-7cd1-426e-a53a-e0aad44561bf
+
 
 ## Goal
+
 Build an RL-based agent that can beat humans in a modified version of the classic board game 'Snakes and Ladders'.
 
 ## Wait, isn't Snakes and Ladders entirely random? 
@@ -18,5 +17,4 @@ Yes. The original game is subject to the whims of the probability gods manifeste
 
 1. Create the `SNL` game environment in Python using Pygame
 2. Create a `SNLGym` training environment by inheriting from the `gymnasium.Env` class. Implement the Gymnasium API methods by calling the respective methods in the `SNL` game env.
-3. Algorithm: I will most likely choose Q-Learning or SARSA as they are computationally lighter and work well for environments with discrete "action space" and "observation space".
-4. 
+3. Algorithm: Q-Learning as it is computationally lighter and work well for environments with discrete "action space" and "observation space".
